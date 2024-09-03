@@ -6,7 +6,7 @@ def get_matrix(n, m, value):
     for i in range(n):
         inside_matrix = []
         for j in range(m):
-            inside_matrix.append(value + int(random.uniform(1, 50)))
+            inside_matrix.append(value)
         matrix.append(inside_matrix)
     return matrix
 
